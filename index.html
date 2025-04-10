@@ -6,51 +6,54 @@
   <title>Simone Pecorari - CV</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary: #2980b9;
+      --background: white;
+      --text: #2c3e50;
+    }
+
+    body.dark {
+      --background: #1e1e2f;
+      --text: #f0f0f0;
+    }
+
     body {
       font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      color: #2c3e50;
+      background: var(--background);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
     }
 
     .container {
-      max-width: 900px;
-      margin: 3rem auto;
-      background: white;
-      padding: 2rem 3rem;
+      max-width: 960px;
+      margin: 2rem auto;
+      background: var(--background);
+      padding: 2rem;
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+    h1, h2 {
+      color: var(--primary);
     }
 
-    h2 {
-      margin-top: 2rem;
-      font-size: 1.5rem;
-      color: #2980b9;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 0.2rem;
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.2rem;
     }
 
     a {
-      color: #2980b9;
+      color: var(--primary);
       text-decoration: none;
-    }
-
-    ul {
-      list-style-type: square;
-      padding-left: 1.5rem;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 1rem;
-      padding: 0.7rem 1.5rem;
-      background-color: #2980b9;
+      margin: 1rem 0;
+      padding: 0.6rem 1.4rem;
+      background-color: var(--primary);
       color: white;
       border: none;
       border-radius: 8px;
@@ -64,20 +67,65 @@
       transform: scale(1.05);
     }
 
-    .contact {
-      margin: 1rem 0;
+    .section {
+      margin-bottom: 2.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    .contact p, .location p {
+      margin: 0.4rem 0;
     }
 
     .footer {
       text-align: center;
       font-size: 0.9rem;
-      color: #555;
+      color: #777;
       margin-top: 3rem;
+    }
+
+    .card {
+      background-color: #f3f3f3;
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+    }
+
+    body.dark .card {
+      background-color: #2c2f45;
+    }
+
+    .socials a {
+      margin-right: 1rem;
+      font-size: 1.2rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      margin-top: 1rem;
+    }
+
+    .toggle-mode {
+      float: right;
+      font-size: 0.9rem;
+      background: none;
+      border: none;
+      color: var(--primary);
+      cursor: pointer;
     }
 
     @media (max-width: 600px) {
       .container {
-        padding: 1.5rem;
+        padding: 1.2rem;
       }
     }
   </style>
@@ -85,41 +133,76 @@
 <body>
 
   <div class="container">
+    <button class="toggle-mode" onclick="toggleDarkMode()">🌓 Cambia tema</button>
     <h1>Simone Pecorari</h1>
     <h2>Ingegnere Meccanico</h2>
 
-    <div class="contact">
-      <p><strong>Email:</strong> <a href="mailto:simonepecorari2000@gmail.com">simonepecorari2000@gmail.com</a></p>
-      <p><strong>Telefono:</strong> +39 338 177 8516</p>
+    <div class="section contact">
+      <p>📧 <strong>Email:</strong> <a href="mailto:simonepecorari2000@gmail.com">simonepecorari2000@gmail.com</a></p>
+      <p>📱 <strong>Telefono:</strong> +39 338 177 8516</p>
+      <div class="socials">
+        🔗 <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="mailto:simonepecorari2000@gmail.com" class="btn">Contattami</a>
+      </div>
     </div>
 
-    <a href="CV_PECORARI_SIMONE.pdf" class="btn" download>📄 Scarica il CV in PDF</a>
+    <div class="section">
+      <h2>Chi sono</h2>
+      <div class="card">
+        <p>Laureato in Ingegneria Meccanica con specializzazione in Meccatronica. Appassionato di progettazione CAD, simulazione dinamica e automazione. Aperto a nuove sfide lavorative e collaborazioni.</p>
+      </div>
+    </div>
 
-    <h2>Formazione</h2>
-    <ul>
-      <li><strong>Università Politecnica delle Marche</strong> (2019–2022) – Ingegneria Meccanica</li>
-      <li><strong>Liceo Scientifico Calzecchi Onesti</strong> (2014–2019)</li>
-    </ul>
+    <div class="section">
+      <h2>Formazione 🎓</h2>
+      <ul>
+        <li><strong>Università Politecnica delle Marche</strong> (2019–2022)</li>
+        <li><strong>Liceo Scientifico Calzecchi Onesti</strong> (2014–2019)</li>
+      </ul>
+    </div>
 
-    <h2>Competenze</h2>
-    <ul>
-      <li><strong>CAD/CAE:</strong> Rhinoceros, Solid Edge, Siemens NX, Adams Multibody</li>
-      <li><strong>Programmazione:</strong> Python, Matlab, Simulink, STM32CubeIDE, XFOIL</li>
-      <li><strong>Lingue:</strong> Italiano (Madrelingua), Inglese (B1), Spagnolo (base)</li>
-    </ul>
+    <div class="section">
+      <h2>Competenze 💡</h2>
+      <ul>
+        <li><strong>CAD/CAE:</strong> Rhinoceros, Solid Edge, NX, Adams Multibody</li>
+        <li><strong>Software & IDE:</strong> Matlab, Simulink, STM32CubeIDE, VSC, CodeBlocks</li>
+        <li><strong>Linguaggi:</strong> Python, XFOIL</li>
+        <li><strong>Lingue:</strong> 🇮🇹 Italiano, 🇬🇧 Inglese (B1), 🇪🇸 Spagnolo (base)</li>
+      </ul>
+    </div>
 
-    <h2>Eventi & Esperienze</h2>
-    <ul>
-      <li><strong>Impresa in Aula</strong> – UNIVPM (<em>2025</em>)</li>
-      <li><strong>Hack-AI-thon</strong> – UNIVPM (<em>2025</em>)</li>
-      <li><strong>Evento:</strong> 21 Gennaio 2025 – UNIVPM</li>
-      <li><strong>Evento:</strong> 27-28 Marzo 2025 – UNIVPM</li>
-    </ul>
+    <div class="section">
+      <h2>Eventi & Esperienze 📅</h2>
+      <ul>
+        <li><strong>Impresa in Aula</strong> – UNIVPM <br><span style="margin-left: 1.5rem;">2025</span></li>
+        <li><strong>Hack-AI-thon</strong> – UNIVPM <br><span style="margin-left: 1.5rem;">2025</span></li>
+        <li><strong>Evento:</strong> UNIVPM <br><span style="margin-left: 1.5rem;">21 Gennaio 2025</span></li>
+        <li><strong>Evento:</strong> UNIVPM <br><span style="margin-left: 1.5rem;">27–28 Marzo 2025</span></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📄 CV PDF integrato</h2>
+      <iframe src="CV_PECORARI_SIMONE.pdf"></iframe>
+    </div>
+
+    <div class="section location">
+      <h2>📍 Località</h2>
+      <p>Sant’Elpidio a Mare (FM), Italia</p>
+      <a href="https://www.google.com/maps/place/Sant'Elpidio+a+Mare" target="_blank" class="btn">Visualizza su Google Maps</a>
+    </div>
 
     <div class="footer">
-      &copy; 2025 Simone Pecorari • CV professionale online
+      &copy; 2025 Simone Pecorari • Portfolio CV online
     </div>
   </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
 
 </body>
 </html>
