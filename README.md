@@ -71,10 +71,10 @@ Studi in Ingegneria Meccanica con attuale specializzazione nel settore della **M
 
 ## 📆 Eventi & Esperienze
 
-- **Impresa in Aula (2025)** – UNIVPM  
+- **Impresa in Aula (2025)** – UNIVPM
+- - **Evento** – 21 Gennaio 2025, UNIVPM  
 - **Hack-AI-thon (2025)** – UNIVPM  
-- **Evento** – 21 Gennaio 2025, UNIVPM  
-- **Evento** – 27-28 Marzo 2025, UNIVPM
+- - **Evento** – 27-28 Marzo 2025, UNIVPM
 
 ---
 
