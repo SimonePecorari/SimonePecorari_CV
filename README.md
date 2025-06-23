@@ -4,8 +4,8 @@ Curriculum Vitae of Simone Pecorari - Mechanical Engineer
 # Simone Pecorari  
 **Mechanical Engineer**
 
-📍 Sant’Elpidio a Mare (FM), Italia  
-📅 Nato il 29/12/2000 a Fermo  
+📍 Sant’Elpidio a Mare (FM), Italy  
+📅 Born on 29/12/2000 a Fermo  
 📞 +39 338 177 8516  
 📧 simonepecorari2000@gmail.com  
 📧 s1114451@studenti.univpm.it  
@@ -15,10 +15,10 @@ Curriculum Vitae of Simone Pecorari - Mechanical Engineer
 ## 🎓 Formazione
 
 **Università Politecnica delle Marche** – *Ancona (2019 – 2022)*  
-*Laurea Triennale in Ingegneria Meccanica*
+*Bachelor's Degree in Mechanical Engineering*
 
 **Liceo Scientifico Temistocle Calzecchi Onesti** – *Fermo (2014 – 2019)*  
-*Diploma di Liceo Scientifico*
+*Scientific High School Diploma*
 
 ---
 
@@ -26,20 +26,20 @@ Curriculum Vitae of Simone Pecorari - Mechanical Engineer
 
 ### Management Skills
 - Leadership
-- Creatività
+- Creativity
 - Problem Solving
-- Pensiero Critico
-- Abilità di Gestione
+- Critical Thinking
+- Management Abilities
 
-### Conoscenze Tecniche
+### Technical Knowledges
 
-**Software CAD/CAE**
+**CAD/CAE Software**
 - Rhinoceros
 - Siemens Solid Edge
 - Siemens NX
 - Adams Multibody
 
-**Linguaggi di Programmazione / IDE**
+**Programming Languages / IDEs**
 - Python
 - Matlab
 - Simulink
@@ -51,38 +51,38 @@ Curriculum Vitae of Simone Pecorari - Mechanical Engineer
 
 ---
 
-## 🌐 Lingue
+## 🌐 Languages
 
-- **Italiano:** Madrelingua  
-- **Inglese:** Cambridge B1 (2018)  
-- **Spagnolo:** Conoscenza base (Scuola Media)
+- **Italian:** Native Speaker  
+- **English:** Cambridge B1 (2018)  
+- **Spanish:** Basic Knowledge
 
 ---
 
 ## 🧠 About Me
 
-Studi in Ingegneria Meccanica con attuale specializzazione nel settore della **Meccatronica**.
+Studies in Mechanical Engineering with current specialization in **Mechatronics**.
 
-- Automunito (Patente B)
-- Interesse per la progettazione, simulazione e automazione
-- Disponibilità a trasferte lavorative
+- Driving license (Category B)
+- Interest in design, simulation, and automation
+- Travelling for work
 
 ---
 
 ## 📆 Eventi & Esperienze
 
 - **Impresa in Aula (2025)** – UNIVPM
-- - **Evento** – 21 Gennaio 2025, UNIVPM  
+- - **Event** – 21 Gennaio 2025, UNIVPM  
 - **Hack-AI-thon (2025)** – UNIVPM  
-- - **Evento** – 27-28 Marzo 2025, UNIVPM
+- - **Event** – 27-28 Marzo 2025, UNIVPM
 
 ---
 
 ## 📎 CV in PDF
 
-➡️ [Download CV_PECORARI_SIMONE.pdf](./CV_PECORARI_SIMONE.pdf)
+➡️ [Download CV_PECORARI_SIMONE.pdf](./CV_PECORARI_SIMONE_new.pdf)
 
 ---
 
-> _“L’ingegneria è l’arte di applicare la scienza per risolvere problemi reali.”_
+> _“Engineering is the art of applying science to solve real-world problems.”_
 
