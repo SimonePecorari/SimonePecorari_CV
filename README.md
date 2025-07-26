@@ -80,7 +80,7 @@ Studies in Mechanical Engineering with current specialization in **Mechatronics*
 
 ## 📎 CV in PDF
 
-➡️ [Download CV_PECORARI_SIMONE](./CV_PECORARI_SIMONE_update.pdf)
+➡️ [Download CV_PECORARI_SIMONE](./CV_PECORARI_SIMONE_2607.pdf)
 
 ---
 
